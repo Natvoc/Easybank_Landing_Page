@@ -1,23 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    width: 375px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2em;
-    height: 2em;
+    height: 5em;
+    width: 100%;
     background: #fff;
-    position: static;    
+    position: absolute;
+}
+nav svg{
+    padding: 2em;
 }
 header{
     background-image: url(../images/bg-intro-mobile.svg);
-    height: 100vh;
-    width: 100%;
     background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
 }
 header img{
     width: 100%;
     margin-top: -4em;
+}
+header h1{
+    font-weight: 400;
+    color: hsl(240, 2%, 20%);
+    margin-top: 2em;
+}
+header p{
+ color: hsl(233, 8%, 62%);
+ margin: 0em 1em 0em 1em;
+ text-align: center;
+}
+header button{
+    border: 0px solid;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+    padding: 1em 2em 1em 2em;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 2em;
+    font-weight: 300;
 }
